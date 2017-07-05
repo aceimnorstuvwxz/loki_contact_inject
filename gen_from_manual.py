@@ -112,5 +112,8 @@ with open('manual_data.txt', 'r') as fpin:
 
     with open("manual_data.json",'w') as fpout:
         json.dump(ret, fpout)         
+
+    print len(selected)
+    print "DONE"
         
 
